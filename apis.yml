@@ -1,5 +1,22 @@
 aid: microsoft-skype
+name: Microsoft Skype
+description: >-
+  Microsoft Skype provides communication APIs for voice, video, and messaging.
+  For new development, Azure Communication Services is the recommended
+  successor, providing cloud-based communication capabilities including calling,
+  SMS, chat, and email.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Communication
+  - Voice
+  - Video
+  - Messaging
+  - Microsoft
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-skype/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis:
   - aid: microsoft-skype:skype-uris
     name: Skype URIs API
@@ -8,8 +25,7 @@ apis:
       - Voice
       - Video
       - Messaging
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-    baseURL: https://api.example.com
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/skype-sdk/skypeuris/skypeuris
     properties:
       - url: https://learn.microsoft.com/en-us/skype-sdk/skypeuris/skypeuris
@@ -28,12 +44,14 @@ apis:
       - Video
       - Chat
       - SMS
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://{resource}.communication.azure.com/
     humanURL: https://learn.microsoft.com/en-us/azure/communication-services/
     properties:
       - url: https://learn.microsoft.com/en-us/azure/communication-services/
         type: Documentation
+      - url: https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/
+        type: Getting Started
     description: >-
       Azure Communication Services (successor to Skype developer APIs)
       provides cloud-based communication APIs for voice calling, video
@@ -43,6 +61,10 @@ apis:
 common:
   - type: Portal
     url: https://portal.azure.com/
+  - type: Website
+    url: https://www.skype.com/
+  - type: Documentation
+    url: https://learn.microsoft.com/en-us/azure/communication-services/
   - type: Pricing
     url: https://azure.microsoft.com/en-us/pricing/details/communication-services/
   - type: Terms of Service
@@ -52,5 +74,5 @@ common:
   - type: Support
     url: https://support.microsoft.com/
 maintainers:
-  - name: Kin Lane
+  - FN: Kin Lane
     email: kin@apievangelist.com
