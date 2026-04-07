@@ -9,10 +9,10 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Communication
-  - Voice
-  - Video
   - Messaging
   - Microsoft
+  - Video
+  - Voice
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-skype/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -22,9 +22,9 @@ apis:
     name: Skype URIs API
     tags:
       - Communication
-      - Voice
-      - Video
       - Messaging
+      - Video
+      - Voice
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     humanURL: https://learn.microsoft.com/en-us/skype-sdk/skypeuris/skypeuris
     properties:
@@ -39,11 +39,11 @@ apis:
   - aid: microsoft-skype:communication-api
     name: Azure Communication Services
     tags:
-      - Communication
-      - Voice
-      - Video
       - Chat
+      - Communication
       - SMS
+      - Video
+      - Voice
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://{resource}.communication.azure.com/
     humanURL: https://learn.microsoft.com/en-us/azure/communication-services/
