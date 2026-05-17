@@ -51,7 +51,7 @@ apis:
       - url: https://learn.microsoft.com/en-us/azure/communication-services/
         type: Documentation
       - url: https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/
-        type: Getting Started
+        type: GettingStarted
     description: >-
       Azure Communication Services (successor to Skype developer APIs)
       provides cloud-based communication APIs for voice calling, video
@@ -67,9 +67,9 @@ common:
     url: https://learn.microsoft.com/en-us/azure/communication-services/
   - type: Pricing
     url: https://azure.microsoft.com/en-us/pricing/details/communication-services/
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.microsoft.com/en-us/legal/terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
