@@ -59,6 +59,8 @@ apis:
       interoperability and enables developers to build rich communication
       experiences in custom applications.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/skype
   - type: Portal
     url: https://portal.azure.com/
   - type: Website
