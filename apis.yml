@@ -59,6 +59,8 @@ apis:
       interoperability and enables developers to build rich communication
       experiences in custom applications.
 common:
+  - type: DomainSecurity
+    url: security/microsoft-skype-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/skype
   - type: Portal
@@ -75,6 +77,8 @@ common:
     url: https://privacy.microsoft.com/en-us/privacystatement
   - type: Support
     url: https://support.microsoft.com/
+  - url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=skype_for_business_blog
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
