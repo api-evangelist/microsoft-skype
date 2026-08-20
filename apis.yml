@@ -20,6 +20,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-skype.png
 tags:
+  - Communications
+  - Messaging
+  - Microsoft
+  - Video
+  - Voice
+tags_raw:
   - Communication
   - Messaging
   - Microsoft
@@ -33,6 +39,11 @@ apis:
   - aid: microsoft-skype:skype-uris
     name: Skype URIs API
     tags:
+      - Communications
+      - Messaging
+      - Video
+      - Voice
+    tags_raw:
       - Communication
       - Messaging
       - Video
@@ -51,6 +62,12 @@ apis:
   - aid: microsoft-skype:communication-api
     name: Azure Communication Services
     tags:
+      - Chat
+      - Communications
+      - SMS
+      - Video
+      - Voice
+    tags_raw:
       - Chat
       - Communication
       - SMS
