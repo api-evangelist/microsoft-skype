@@ -27,6 +27,7 @@ accessModel:
   confidence: medium
   source:
   - plans
+  - {url: 'https://www.skype.com/', status: 301, note: 'declared website redirects to https://teams.live.com/free?source=skype — a different registrable domain (skype.com -> live.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-skype.png
