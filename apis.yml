@@ -1,5 +1,6 @@
 aid: microsoft-skype
 name: Microsoft Skype
+x-parent: microsoft
 description: >-
   Microsoft Skype provides communication APIs for voice, video, and messaging.
   For new development, Azure Communication Services is the recommended
@@ -43,7 +44,7 @@ tags_raw:
   - Microsoft
   - Video
   - Voice
-url: https://raw.githubusercontent.com/api-evangelist/microsoft-skype/refs/heads/main/apis.yml
+url: https://www.skype.com/
 created: '2024-01-01'
 modified: '2026-04-28'
 specificationVersion: '0.23'
