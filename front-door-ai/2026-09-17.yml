@@ -1,0 +1,26 @@
+# Front Door AI Index — microsoft-skype — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: microsoft-skype
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.skype.com
+  final_host: teams.live.com
+  ownership: own
+  owner: microsoft-skype
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 19.38
+  words: 258
+  tiers:
+    agentic: 3
+    core: 2
+    model: 0
+  ambiguous: 0
+  top_terms:
+    copilot: 3
+    AI: 2
