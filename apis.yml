@@ -101,6 +101,12 @@ apis:
       interoperability and enables developers to build rich communication
       experiences in custom applications.
 common:
+  - type: Plans
+    url: plans/microsoft-skype-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/microsoft-skype-rate-limits.yml
+  - type: FinOps
+    url: finops/microsoft-skype-finops.yml
   - type: DomainSecurity
     url: security/microsoft-skype-domain-security.yml
   - type: LinkedIn
